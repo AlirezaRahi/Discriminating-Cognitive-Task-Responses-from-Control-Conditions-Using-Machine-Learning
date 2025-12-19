@@ -44,7 +44,7 @@ This repository is intended for:
 - **Production-Ready Pipeline**: Full model serialization for deployment
 
 ##  Performance Results
-![ROC Curve](all.jpg)
+![ROC Curve](final_fmri_classification_report.png)
 
 The model was evaluated on 1,125 fMRI samples with robust cross-validation:
 
@@ -605,6 +605,7 @@ We welcome collaborations in:
 
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
+
 
 
 

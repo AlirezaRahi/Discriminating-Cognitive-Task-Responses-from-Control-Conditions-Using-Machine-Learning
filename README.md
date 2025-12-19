@@ -103,7 +103,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+### Expected Output
 
+After running the script, you should see:
+- Classification report printed in terminal
+- ROC curve saved in `results/`
+- Trained model saved in `output/`
+- 
 ### Requirements (`requirements.txt`)
 ```
 numpy>=1.21.0
@@ -132,6 +138,10 @@ all_features.csv
 │   ├── wernicke_left_min, wernicke_left_mean, wernicke_left_max
 │   └── ... (51 additional features)
 ```
+> ⚠️ **Data Availability Notice**  
+> The original fMRI dataset is not publicly available due to privacy and ethical restrictions.  
+> This repository focuses on the full modeling and evaluation pipeline.
+
 
 ### Data Statistics
 - **Total Samples**: 1,125 fMRI observations
@@ -592,6 +602,7 @@ We welcome collaborations in:
 
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
+
 
 
 

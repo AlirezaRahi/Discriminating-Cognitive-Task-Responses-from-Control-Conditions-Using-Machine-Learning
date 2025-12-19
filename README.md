@@ -1,5 +1,18 @@
 # Discriminating Cognitive Task Responses from Control Conditions Using Machine Learning on fMRI Features
 
+# fMRI Cognitive State Classification
+
+> ** Associated Preprint Publication**  
+> This work is associated with a preprint published on TechRxiv:
+
+**Rahi, A.** (2025). *Discriminating Cognitive Task Responses from Control Conditions Using Machine Learning on fMRI Features*.  
+**TechRxiv.** December 19, 2025.  
+ **DOI:** [10.36227/techrxiv.176611754.45283328/v1](https://doi.org/10.36227/techrxiv.176611754.45283328/v1)  
+ **Direct Link:** [TechRxiv Article](https://www.techrxiv.org/users/967209/articles/1369845-discriminating-cognitive-task-responses-from-control-conditions-using-machine-learning-on-fmri-features)
+
+---
+
+
 ## Overview
 
 This repository presents a robust machine learning framework for binary classification of cognitive task responses versus control conditions using functional MRI (fMRI) data. The system employs an optimized Gradient Boosting Classifier with SMOTE-based data balancing to achieve high-accuracy discrimination between:
@@ -567,3 +580,4 @@ We welcome collaborations in:
 
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
+

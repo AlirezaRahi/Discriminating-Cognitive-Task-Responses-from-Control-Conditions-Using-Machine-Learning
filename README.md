@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![Machine Learning](https://img.shields.io/badge/ML-fMRI-orange)
+![Status](https://img.shields.io/badge/status-research-green)
+
 # Discriminating Cognitive Task Responses from Control Conditions Using Machine Learning on fMRI Features
 
 # fMRI Cognitive State Classification
@@ -21,6 +25,14 @@ This repository presents a robust machine learning framework for binary classifi
 - **Response_Control**: Baseline control conditions
 
 The model analyzes 56 neuroscientifically-relevant fMRI features extracted from various brain regions, providing interpretable insights into cognitive processing differences.
+
+## Who Should Use This Repository
+
+This repository is intended for:
+- Cognitive neuroscientists working with task-based fMRI
+- Machine learning researchers interested in neuroimaging data
+- Graduate students seeking reproducible fMRI-ML pipelines
+- Researchers comparing task vs baseline neural states
 
 ##  Key Features
 
@@ -580,5 +592,6 @@ We welcome collaborations in:
 
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
+
 
 

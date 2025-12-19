@@ -356,6 +356,8 @@ If you use this work in your research, please cite:
 
 **Rahi, A. (2025). Discriminating Cognitive Task Responses from Control Conditions Using Machine Learning on fMRI Features. GitHub Repository. https://github.com/AlirezaRahi/Discriminating-Cognitive-Task-Responses-from-Control-Conditions-Using-Machine-Learning**
 
+> GitHub Release: v1.0.0
+
 ### BibTeX Entry
 ```bibtex
 @software{rahi2025fmriclassification,
@@ -602,6 +604,7 @@ We welcome collaborations in:
 
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
+
 
 
 

@@ -1,6 +1,6 @@
 # Discriminating Cognitive Task Responses from Control Conditions Using Machine Learning on fMRI Features
 
-## 🧠 Overview
+## Overview
 
 This repository presents a robust machine learning framework for binary classification of cognitive task responses versus control conditions using functional MRI (fMRI) data. The system employs an optimized Gradient Boosting Classifier with SMOTE-based data balancing to achieve high-accuracy discrimination between:
 
@@ -9,7 +9,7 @@ This repository presents a robust machine learning framework for binary classifi
 
 The model analyzes 56 neuroscientifically-relevant fMRI features extracted from various brain regions, providing interpretable insights into cognitive processing differences.
 
-## ✨ Key Features
+##  Key Features
 
 - **Optimized Gradient Boosting**: Ensemble learning with fine-tuned hyperparameters
 - **Feature Importance Analysis**: Identification of brain regions most discriminative between conditions
@@ -53,7 +53,7 @@ The model was evaluated on 1,125 fMRI samples with robust cross-validation:
 
 *Importance percentages indicate relative contribution to classification decisions*
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -92,7 +92,7 @@ jupyter>=1.0.0
 tqdm>=4.62.0
 ```
 
-## 📁 Dataset Preparation
+##  Dataset Preparation
 
 ### Data Structure
 The model expects a CSV file with the following structure:
@@ -116,7 +116,7 @@ all_features.csv
   - Response_Control: 634 samples (56.4%)
   - Correct_Task: 491 samples (43.6%)
 
-## 🏃‍♂️ Usage Instructions
+##  Usage Instructions
 
 ### 1. Training the Model
 
@@ -149,7 +149,7 @@ new_predictions = model.predict(new_fmri_data)
 probabilities = model.predict_proba(new_fmri_data)
 ```
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### Pipeline Components
 
@@ -178,7 +178,7 @@ The model analyzes 56 features extracted from fMRI data, including:
 - **Language Areas**: Wernicke's and Broca's areas
 - **Cognitive Networks**: Attention, default mode network components
 
-## 🔬 Scientific Interpretation
+##  Scientific Interpretation
 
 ### Key Findings
 
@@ -197,7 +197,7 @@ The model analyzes 56 features extracted from fMRI data, including:
 - **Neuromarker Identification**: Features that consistently differentiate cognitive states
 - **Therapeutic Monitoring**: Objective metrics for cognitive intervention effects
 
-## 📈 Detailed Performance Analysis
+##  Detailed Performance Analysis
 
 ### Cross-Validation Stability
 - **5-fold CV Accuracies**: [0.888, 0.817, 0.852, 0.804, 0.774]
@@ -230,7 +230,7 @@ The model analyzes 56 features extracted from fMRI data, including:
 5. **Frontal Attention Network** (3.45%)
    - Expected involvement in cognitive control
 
-## 💻 Technical Implementation
+##  Technical Implementation
 
 
 
@@ -256,7 +256,7 @@ The model analyzes 56 features extracted from fMRI data, including:
    - Artifact preservation
    - Deployment readiness
 
-## 🧪 Experimental Design
+##  Experimental Design
 
 ### Data Collection
 - **Participants**: Healthy adults
@@ -275,7 +275,7 @@ The model analyzes 56 features extracted from fMRI data, including:
 - **Balancing**: SMOTE for training only
 - **Metrics**: Accuracy, Precision, Recall, F1, AUC
 
-## 🔄 Reproducibility
+##  Reproducibility
 
 ### Environment Setup
 ```bash
@@ -295,7 +295,7 @@ All random processes are seeded for reproducibility:
 - `random_state=42` for SMOTE
 - `random_state=42` for Gradient Boosting
 
-## 📚 Applications
+##  Applications
 
 ### Research Applications
 1. **Cognitive Neuroscience**: Understanding brain regions involved in specific tasks
@@ -315,7 +315,7 @@ All random processes are seeded for reproducibility:
 3. **Skill Acquisition**: Neural changes during learning
 4. **Personalized Education**: Adaptive learning based on neural patterns
 
-## 📝 Citation
+##  Citation
 
 If you use this work in your research, please cite:
 
@@ -334,7 +334,7 @@ If you use this work in your research, please cite:
 }
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
 
@@ -351,7 +351,7 @@ For commercial licensing inquiries, please contact the author directly.
 ### Academic Use
 Researchers are encouraged to use, cite, and build upon this work for non-commercial research purposes with proper attribution.
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions in several areas:
 
@@ -389,7 +389,7 @@ We welcome contributions in several areas:
 ### Q6: Can this model be used for real-time classification?
 **A**: Yes, inference is very fast (~ms per sample), suitable for real-time applications.
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -425,7 +425,7 @@ logging.basicConfig(level=logging.DEBUG)
 # Then run your script
 ```
 
-## 🎯 Future Directions
+##  Future Directions
 
 ### Short-term Goals (1-3 months)
 1. **Extended Feature Set**: Incorporate connectivity measures and graph metrics
@@ -445,14 +445,14 @@ logging.basicConfig(level=logging.DEBUG)
 3. **Large-scale Deployment**: Multi-site validation and standardization
 4. **Therapeutic Applications**: Closed-loop cognitive interventions
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Cognitive Neuroscience Community** for foundational research
 - **Open Source Developers** for ML tools and libraries
 - **Research Participants** for contributing fMRI data
 - **Academic Mentors** for guidance and feedback
 
-## 📚 References
+##  References
 
 ### Methodological References
 1. Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research.
@@ -491,7 +491,7 @@ We welcome collaborations in:
 
 ---
 
-## ⚠️ Ethical Considerations
+##  Ethical Considerations
 
 ### Data Privacy
 - All data should be de-identified and anonymized
@@ -512,7 +512,7 @@ We welcome collaborations in:
 
 ---
 
-## 📊 Model Cards
+##  Model Cards
 
 ### Model Card for fMRI Classification Model
 
@@ -564,5 +564,6 @@ We welcome collaborations in:
 *Version: 1.0.0*
 
 ---
+
 
 **Disclaimer**: This software is for research purposes only. The authors make no warranties regarding its accuracy or suitability for clinical applications. Users assume full responsibility for compliance with applicable laws and ethical guidelines.
